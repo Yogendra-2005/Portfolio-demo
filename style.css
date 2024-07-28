@@ -118,7 +118,7 @@ hr {
 }
 
 .secondsection {
-  max-width: 80vw;
+  max-width: 90vw;
   margin: auto;
   height: 90vh;
 }
@@ -235,10 +235,16 @@ footer {
     font-weight: 600;
     width: 60px;
     margin: 0;
-    top: 72px;
+    top: 71px;
+  }
+  .nav-branding{
+    font-size:1rem;
   }
 }
 @media (max-width: 405px) {
+  .nav-branding{
+    font-size:1rem;
+  }
   .secondsection .box {
     margin: 60px 0;
   }
@@ -247,9 +253,10 @@ footer {
   }
 
   .vertical .text {
-    margin: 0 9px;
+    margin: 0 17px;
+
     font-size: 14px;
-    left: -25px;
+    left: -23px;
   }
 
   .vertical .desc {
@@ -386,6 +393,7 @@ footer {
   .nav-menu.active {
     left: 0;
   }
+ 
 }
 @media screen and (min-width: 768px) and (max-width: 1310px) {
   .firstsection {
